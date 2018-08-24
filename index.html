@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Curriculum vitae </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+<header>
+<h1  align="center">Curriculum vitae </h1>
+</header>
+<section>
+<form action="index.html" method="GET">
+<article>
+    <fieldset>
+        <legend>Personal Data</legend>
+        <label for="Dui">DUI</label>
+        <input type="text" name="Dui" id="Dui" placeholder="0123456789">
+
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname">
+
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname">
+
+        <label for="gender">gender</label>
+        <input type="radio" name ="gender" id="female"value="female">female
+        <input type="radio"name ="gender" id="male"value="male">male
+
+        <br>
+        <label for ="Contact number">Contact number</label>
+        <input type="text" name="Contact number" id="Contact number">
+
+        <label for ="Birthday">Date: </label>
+        <input type ="date" name ="Birthday" id ="Birthday">
+        <label for ="status">Civil status</label>
+        <select>
+            <option>sinlge</option>
+            <option>married</option>
+            <option>other</option>
+        </select>
+        <label for ="imagen">Imagen</label>
+        <input type="file" >
+    </fieldset>
+</article>
+    <br>
+    <article>
+    <fieldset>
+        <legend>Work Experience</legend>
+        <textarea cols="200"  rows="10" placeholder="Experience"></textarea>
+    </fieldset>
+    </article>
+    <article>
+    <br>
+    <fieldset>
+        <legend>Academic Training</legend>
+        <textarea cols="200"  rows="10" placeholder="Academic Training"></textarea>
+    </fieldset>
+    </article>
+<br>
+    <article>
+    <fieldset>
+        <legend>Further Training</legend>
+        <fieldset>
+            <legend>Programing Languajes</legend>
+            <input type="checkbox" name="check[]" value ="java" > Java
+            <input type="checkbox" name="check[]" value ="c#"> C#
+            <input type="checkbox" name="check[]" value ="c++"> C++
+            <input type="checkbox" name="check[]" value ="ruby"> Ruby
+                    </fieldset>
+        <fieldset>
+            <legend>Web Tecnologies</legend>
+            <input type="checkbox" name="check[]" value ="html5"> HTML5
+            <input type="checkbox" name="check[]" value="css css3"> CSS CSS3
+            <input type="checkbox" name="check[]" value="MATERIALIZE CSS"> MATERIALIZE CSS
+            <input type="checkbox" name="check[]" value ="Java Scrit"> Java Scrit
+            <input type="checkbox" name="check[]" values="Node.js"> Node.js
+            <input type="checkbox" name="check[]" values="Spring MVC"> Spring MVC
+        </fieldset>
+    </fieldset>
+    </article>
+<br>
+    <input type="Submit" value=”Send”>
+    <button type="button" value=”Cancel” ><a href="Untitled-1.html">Cancel</a></button>
+
+</form>
+</section>
+</body>
+</html>
